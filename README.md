@@ -13,3 +13,5 @@ files needs to be generated.
 Consider the coloumn names to case insensitive, ie. Name = name.
 
 NOTE: This tool should work with any data file and any template file.
+
+### to run the project, write this command :- node src/excelGenerate.js
