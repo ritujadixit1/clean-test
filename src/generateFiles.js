@@ -39,7 +39,7 @@ const generateFiles = () => {
                     worksheet.cell(rowNumber, columnIndex + 1).string(rows[i][j].toString())
                 }
                 
-                workbook.write(`mappingData${i}.xlsx`);
+                workbook.write(`output data/mappedData${i}.xlsx`);
             }
         })
     })
