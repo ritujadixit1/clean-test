@@ -3,7 +3,7 @@ const generateFiles = () => {
     const readXlsxFile = require('read-excel-file/node');
     const xl = require('excel4node');
     const fs = require('fs');
-    const constants = require('./contants')
+    const constants = require('./constants')
 
     let mappingData = fs.readFileSync(constants.constants.PATHS.MAPPING_FILE_PATH);
     mappingData = JSON.parse(mappingData);
